@@ -18,9 +18,11 @@ Install from pypi with:
 * Add -f FILE argument which will read commands from the supplied file
 * Add xargs style handling to run a single command with different arguments
 * Silence traceback info when interrupting with Ctrl-C 
-* Build python package
-* Install as executable in _location_/bin
+* Build python package ✅
+* Install as executable in `<location>/bin` ✅
 * Selectable colour palette - muted/pastel colors 
+* Documentation
+* Publish to PyPi
 
 ## License
 
