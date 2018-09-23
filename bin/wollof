@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import sys
+from wollof import follow
+
+follow.process(sys.argv[1:])
