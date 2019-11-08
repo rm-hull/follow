@@ -13,16 +13,17 @@ Install from pypi with:
     sudo -H pip install -U wollof
 
 ## TODO
-* Add -r switch which if passed, it instead converts existing timestamps in the 
+* Add -r switch which if passed, it instead converts existing timestamps in the
   input to relative times, such as "15m5s ago".
 * Add -f FILE argument which will read commands from the supplied file
 * Add xargs style handling to run a single command with different arguments
-* Silence traceback info when interrupting with Ctrl-C 
+* Silence traceback info when interrupting with Ctrl-C
 * Build python package ✅
 * Install as executable in `<location>/bin` ✅
-* Selectable colour palette - muted/pastel colors 
+* Selectable colour palette - muted/pastel colors
 * Documentation
 * Publish to PyPi
+* Incorporate PYTHONUNBUFFERED (if necessary)
 
 ## License
 
